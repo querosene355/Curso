@@ -87,5 +87,39 @@ else:
 for numero in range(1, 20, 2 ):
 #              Inicio, fim, step (de quanto em quanto)    
     print(numero)
+
+for letra in 'google':
+    print(letra)
+
+# letra é a variável de iteração criada pelo for 
+# por padrão itera nos index da string  
 '''
+
+'''
+linhas = 5
+colunas = 5
+simbolo = '@'
+
+for l in range(linhas):
+    
+    for c in range(colunas):
+        print(f'{simbolo}', end='') # Mantém as colunas na mesma linha
+    print() #Quebra a linha 
+
+Output:
+@@@@@
+@@@@@
+@@@@@
+@@@@@
+@@@@@
+'''
+
+'''
+#Exemplo de operador ternário
+pontuacao = 33
+rebaixamento = 'Salvo do rebaixamento' if pontuacao > 43 else 'Rebaixado'
+print(rebaixamento)
+'''
+
+
 
